@@ -1,0 +1,107 @@
+<resources>
+    <!--<string name="app_name">testProject</string>-->
+
+    <string name="gs">
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+</string>
+
+    <string name="message">
+
+MESSAGE
+</string>
+
+    <string name="profile">
+
+Profile
+</string>
+
+    <string name="map">
+
+Map
+</string>
+
+    <string name="discover">
+Discover
+</string>
+
+    <string name="settings">
+Settings
+</string>
+
+    <string name="name">
+
+Hi I am JANE
+</string>
+
+    <string name="status">
+
+Online
+</string>
+
+    <string name="post">
+
+5\nPosts
+</string>
+
+    <string name="friend">
+
+30\nFriends
+</string>
+
+    <string name="app_name">PINGCHAT</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="nav_friend">friend</string>
+    <string name="nav_chat">Chats</string>
+    <string name="nav_map">Maps</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_friends">Friends</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="discoverlikes">300</string>
+    <string name="discovercomments">90</string>
+    <string name="chatmessage">Send Message</string>
+    <string name="google_sign_up">Sign in with Google</string>
+    <string name="gps_network_not_enabled">Gps is not enabled</string>
+    <string name="open_location_settings">open location settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="tipPing">Select to see details of sent or received \nPings on map</string>
+    <string name="registerphoto">Click to \ninsert photo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sendpost">Your post can be seen in \nDiscover feeds by your friends</string>
+    <string name="switchtopartners">Switching to PingPartners account will boost \nyour Ping functionality to target a larger \ncommunity (still in development)</string>
+    <string name="settingtext">We are always working hard to improve your PingChat App experience, thus it would be of great assistance if you could provide us with feedback on what is working and how we can do better</string>
+    <string name="frozenghost">Your location will be frozen \nat your last or current location \nand your friends can see you</string>
+    <string name="preciseghost">Your location will be displayed \nprecisely and your friends can \nsee you</string>
+    <string name="superiorghost">Your location will be disabled \nand your friends cannot see you</string>
+    <string name="hintghost">Hint: Your location will be updated with default interval.\n You can tweak your location by choosing\n one of the ghosts</string>
+    <string name="ghostdeal">Are you forgetting our deal? Deactivate me, or \nchoose my other siblings. Just do not forget \nto tap on map to see your friends locations \nafter deactivating me.</string>
+    <string name="hintghostwarning">Hint: Deactivating this ghost will set your location to default. Otherwise, you can choose other ghost options.</string>
+</resources>

@@ -1,0 +1,309 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chat"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorAquaLight">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <ImageView
+            android:id="@+id/ellipse"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ellipse_1" />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/ellipse_2"
+            android:layout_width="197dp"
+            android:layout_height="197dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/ellipse_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ellipse_3"
+            android:layout_width="182dp"
+            android:layout_height="182dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/user"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ellipse_2" />
+
+
+        <TextView
+            android:id="@+id/gs"
+            android:layout_width="244dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:text="@string/gs"
+            android:textAppearance="@style/gs"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ellipse_2" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="215dp"
+            android:layout_height="21dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="center_horizontal"
+            android:text="@string/name"
+            android:textAppearance="@style/name"
+            app:layout_constraintBottom_toTopOf="@+id/ellipse_3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="37dp"
+            android:layout_height="14dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/status"
+            android:textAppearance="@style/status"
+            app:layout_constraintBottom_toTopOf="@+id/ellipse_3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/post"
+            android:layout_width="86dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/post"
+            android:textAppearance="@style/post"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btnMsg"
+            app:layout_constraintEnd_toStartOf="@+id/friend"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.613"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:id="@+id/friend"
+            android:layout_width="86dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="296dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/friend"
+            android:textAppearance="@style/friend"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btnMsg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.613"
+            android:layout_marginRight="16dp" />
+
+        <Button
+            android:id="@+id/btnMsg"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:background="@drawable/rectangle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.55" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="193dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:elevation="6dp"
+            android:gravity="center_horizontal"
+            android:text="@string/message"
+            android:textAppearance="@style/message"
+            app:layout_constraintEnd_toEndOf="@+id/ellipse_2"
+            app:layout_constraintRight_toRightOf="@+id/ellipse_2"
+            app:layout_constraintTop_toTopOf="@+id/btnMsg" />
+
+        <ImageView
+            android:id="@+id/rectangle_6"
+            android:layout_width="165dp"
+            android:layout_height="124dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="448dp"
+            android:background="@drawable/bg"
+            android:elevation="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.939"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.772" />
+
+        <ImageView
+            android:id="@+id/rectangle_5"
+            android:layout_width="99dp"
+            android:layout_height="124dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rectangle_5"
+            android:elevation="6dp"
+            app:layout_constraintEnd_toStartOf="@+id/rectangle_6"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rectangle_4" />
+
+        <ImageView
+            android:id="@+id/rectangle_2"
+            android:layout_width="98dp"
+            android:layout_height="123dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rectangle_2"
+            android:elevation="6dp"
+            app:layout_constraintEnd_toStartOf="@+id/rectangle_6"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toEndOf="@+id/rectangle_5"
+            app:layout_constraintTop_toBottomOf="@+id/rectangle_7"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/rectangle_7"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="380dp"
+            android:background="@drawable/bg"
+            android:elevation="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="16dp" />
+
+        <ImageView
+            android:id="@+id/rectangle_4"
+            android:layout_width="176dp"
+            android:layout_height="121dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="380dp"
+            android:elevation="6dp"
+            android:src="@drawable/bg"
+            app:layout_constraintEnd_toStartOf="@+id/rectangle_7"
+            app:layout_constraintHorizontal_bias="0.285"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="16dp" />
+
+        <View
+            android:id="@+id/rectangle_3"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/rectangle_3"
+            android:elevation="6dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="88dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="136dp"
+            android:elevation="6dp"
+            android:gravity="center_horizontal"
+            android:text="@string/profile"
+            android:textAppearance="@style/profile"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            app:layout_constraintEnd_toEndOf="@+id/settings"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rectangle_5" />
+
+        <TextView
+            android:id="@+id/map"
+            android:layout_width="88dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="140dp"
+            android:elevation="6dp"
+            android:gravity="center_horizontal"
+            android:text="@string/map"
+            android:textAppearance="@style/map"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            app:layout_constraintEnd_toEndOf="@+id/settings"
+            app:layout_constraintHorizontal_bias="0.397"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rectangle_2" />
+
+        <TextView
+            android:id="@+id/discover"
+            android:layout_width="88dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="156dp"
+            android:elevation="6dp"
+            android:gravity="center_horizontal"
+            android:text="@string/discover"
+            android:textAppearance="@style/discover"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            app:layout_constraintEnd_toEndOf="@+id/settings"
+            app:layout_constraintHorizontal_bias="0.739"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rectangle_7" />
+
+        <TextView
+            android:id="@+id/settings"
+            android:layout_width="88dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="156dp"
+            android:elevation="6dp"
+            android:gravity="center_horizontal"
+            android:text="@string/settings"
+            android:textAppearance="@style/settings"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.973"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rectangle_7" />
+
+
+</android.support.constraint.ConstraintLayout>
